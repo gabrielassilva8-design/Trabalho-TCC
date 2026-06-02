@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-de-navegação{
+    background-color: #2E7D32;
+    height: 9vh;
+}
+.container-da-logo{
+    width: 80px;
+    height: 70px;
+    margin-left: 20px;
+}
+#título-centro-camax-um{
+    color: #262323;
+    text-shadow: 3px 3px 10px #262323;
+}
+#logo-centro-camax-um{
+    margin-top: 5px;
+    width: 80px;
+}
+.container-do-título-da-logo{
+    width: 300px;
+    margin-left: 110px;
+    margin-top: -45px;
+}
+.container-do-botão-entrar{
+    width: 40px;
+    margin-left: 1720px;
+    margin-top: -45px;
+}
+#btn-entrar{
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container-do-título-de-busca{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin-left: 710px;
+    margin-top: 50px;
+}
+#título-de-busca{
+    font-size: 25px;
+}
+.container-da-barra-de-busca{
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+    width: 700px;
+    height: 50px;
+    margin-left: 600px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+#barra-de-busca{
+    width: 620px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+#barra-de-busca:focus{
+    outline: none;
+}
+.container-do-ícone-da-lupa{
+    width: 30px;
+    margin-left: 1240px;
+    margin-top: -45px;
+}
+#ícone-da-lupa{
+    width: 40px;
+}
+
+.container-título-de-categorias{
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
