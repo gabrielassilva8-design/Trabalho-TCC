@@ -37,6 +37,11 @@
     border: none;
     font-weight: bold;
     font-size: 16px;
+    cursor: pointer;
+    transition: .35s;
+}
+#btn-entrar:hover{
+    transform: scale(0.9);
 }
 
 .container-do-título-de-busca{
@@ -76,6 +81,7 @@
 }
 #ícone-da-lupa{
     width: 40px;
+    cursor: pointer;
 }
 
 .container-título-de-categorias{
@@ -83,4 +89,163 @@
     margin-left: 50px;
     margin-top: 20px;
 }
+#título-de-categorias{
+    font-size: 25px;
+    color: #262323;
+    text-shadow: 3px 3px 10px #262323;
+}
+.card-alimentação{
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.card-artesanato{
+    width: 50px;
+    margin-left: 300px;
+    margin-top: -150px;
+}
+.card-roupas{
+    width: 50px;
+    margin-left: 500px;
+    margin-top: -150px;
+}
+.card-bebidas{
+    width: 50px;
+    margin-left: 700px;
+    margin-top: -150px;
+}
+.card-serviços{
+    width: 50px;
+    margin-left: 900px;
+    margin-top: -150px;
+}
+.card-outros{
+    width: 40px;
+    margin-left: 1100px;
+    margin-top: -150px;
+}
+#btn-alimentação{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #D5EFB0;
+    border: none;
+    transition: .35s;
+    cursor: pointer;
+}
+#btn-artesanato{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+     background-color: #D5EFB0;
+      border: none;
+      transition: .35s;
+        cursor: pointer;
+}
+#btn-roupas{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+     background-color: #D5EFB0;
+      border: none;
+      transition: .35s;
+        cursor: pointer;
+}
+#btn-bebidas{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+     background-color: #D5EFB0;
+      border: none;
+      transition: .35s;
+        cursor: pointer;
+}
+#btn-serviços{
+     width: 150px;
+    height: 150px;
+    border-radius: 10px;
+     background-color: #D5EFB0;
+      border: none;
+      transition: .35s;
+        cursor: pointer;
+}
+#btn-outros{
+     width: 150px;
+    height: 150px;
+    border-radius: 10px;
+     background-color: #D5EFB0;
+      border: none;
+      transition: .35s;
+        cursor: pointer;
+}
+#btn-alimentação:hover{
+    transform: scale(0.9);
+}
+#btn-artesanato:hover{
+    transform: scale(0.9);
+}
+#btn-roupas:hover{
+    transform: scale(0.9);
+}
+#btn-bebidas:hover{
+    transform: scale(0.9);
+}
+#btn-serviços:hover{
+    transform: scale(0.9);
+}
+#btn-outros:hover{
+    transform: scale(0.9);
+}
+#título-alimentação{
+    font-size: 15px;
+    font-weight: bold;
+}
+#título-artesanato{
+    font-size: 15px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+#título-roupas{
+    font-size: 15px;
+    font-weight: bold;
+}
+#título-bebidas{
+    font-size: 15px;
+    font-weight: bold;
+}
+#título-serviços{
+    font-size: 15px;
+    font-weight: bold;
+}
+#título-outros{
+    font-size: 15px;
+    font-weight: bold;
+}
+#alimentação{
+    width: 70px;
+}
+#artesanato{
+    width: 90px;
+    margin-top: -10px;
+}
+#roupas{
+    width: 70px;
+}
+#bebidas{
+    width: 70px;
+}
+#serviços{
+    width: 70px;
+}
+#outros{
+    width: 70px;
+}
+.container-de-banner{
+    margin-left: 230px;
+    margin-top: 50px;
+}
+#banner{
+    width: 1400px;
+}
+
 
