@@ -248,4 +248,32 @@
     width: 1400px;
 }
 
+.container-de-título-feirantes-destaque{
+    width: 260px;
+     margin-left: 50px;
+    margin-top: 20px;
+}
+#título-feirantes-destaque{
+     font-size: 25px;
+    color: #262323;
+    text-shadow: 3px 3px 10px #262323;
+}
+.container-feirantes-não-encontrados{
+    background-color: #EBEBEB;
+    width: 1500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 9%;
+    margin-top: 1%;
+}
+.container-de-texto-feirantes-não-encontrados{
+    width: 230px;
+    margin-top: -8%;
+    margin-left: 43%;
+}
+#texto-feirantes-não-encontrados{
+    font-size: 22px;
+}
+
+
 
