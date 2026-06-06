@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centro Camax - Início</title>
+  
+    <link rel="stylesheet" href="/src/css/page_inicial.css">
 </head>
 <body>
     <!--Parte de Gabriela-->
-    <header class="barra-de-navegação-um"></header>
-    <section class="seção-de-busca"></section>
-    <section class="seção-de-categorias"></section>
-    <section class="seção-de-carousel"></section>
-    <section class="seção-de-feirantes-destaque"></section>
-</body>
+    <header class="container-menu-de-navegação-um">
+        <nav class="menu-de-navegação">
+        <div class="container-da-logo"><img id="logo-centro-camax-um" src="/src/images/Logo centroCamax.svg" alt="Logo Centro Camax"></div>
+        <div class="container-do-título-da-logo"><h1 id="título-centro-camax-um">CENTRO CAMAX</h1></div>
+        <div class="container-do-botão-entrar"><button id="btn-entrar" href="/">Entrar</button></div>
+        </nav>
+    </header>
+    <section class="seção-de-busca">
+        <div class="container-do-título-de-busca"><p id="título-de-busca">Encontre feirantes, categoria e informação</p></div>
+        <div class="container-da-barra-de-busca"><input id="barra-de-busca" type=" search"></div>
+        <div class="container-do-ícone-da-lupa"><img id="ícone-da-lupa" src="/src/images/Search.svg"></div>
+    </section>
+    <section class="seção-de-categorias">
+        <div class="container-título-de-categorias"><h3 id="título-de-categorias">Categorias:</h3></div>
+        <div class="card-alimentação"><button id="btn-alimentação"><img id="alimentação" src="/src/images/Alimentação.svg" alt="Categoria de Alimentação"><p id="título-alimentação">Alimentação</p></button></div>
+        <div class="card-artesanato"><button id="btn-artesanato"><img id="artesanato" src="/src/images/Artesanato.svg" alt="Categoria de Artesanato"><p id="título-artesanato">Artesanato</p></button></div>
+        <div class="card-roupas"><button id="btn-roupas"><img id="roupas" src="/src/images/Roupas.svg" alt="Categoria de Roupas"><p id="título-roupas">Roupas</p></button></div>
+        <div class="card-bebidas"><button id="btn-bebidas"><img id="bebidas" src="/src/images/Bebidas.svg" alt="Categoria de Bebidas"><p id="título-bebidas">Bebidas</p></button></div>
+        <div class="card-serviços"><button id="btn-serviços"><img id="serviços" src="/src/images/Serviços.svg" alt="Categoria de Serviços"><p id="título-serviços">Serviços</p></button></div>
+        <div class="card-outros"><button id="btn-outros"><img id="outros" src="/src/images/Outros.svg" alt="Categoria de Outros"><p id="título-outros">Outros</p></button></div>
+    </section>
+    <section class="seção-de-banner">
+        <div class="container-de-banner"><img id="banner" src="/src/images/Gemini_Generated_Image_wv2ra3wv2ra3wv2r.png" alt=""></div>
+    </section>
+    <section class="seção-de-feirantes-destaque">
+         <div class="container-de-título-feirantes-destaque"><h3 id="título-feirantes-destaque">Feirantes em Destaque:</h3></div>
+        <div class="container-feirantes-não-encontrados"></div>
+        <div class="container-de-texto-feirantes-não-encontrados"><p id="texto-feirantes-não-encontrados">Feirantes não encontrados</p></div>
+    </section>
+  </body>
+</head>
 </html>

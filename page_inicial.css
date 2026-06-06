@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-de-navegação{
+    background-color: #2E7D32;
+    height: 9vh;
+}
+.container-da-logo{
+    width: 80px;
+    height: 70px;
+    margin-left: 20px;
+}
+#título-centro-camax-um{
+    color: #262323;
+    text-shadow: 3px 3px 10px #262323;
+}
+#logo-centro-camax-um{
+    margin-top: 5px;
+    width: 80px;
+}
+.container-do-título-da-logo{
+    width: 300px;
+    margin-left: 110px;
+    margin-top: -45px;
+}
+.container-do-botão-entrar{
+    width: 40px;
+    margin-left: 1720px;
+    margin-top: -45px;
+}
+#btn-entrar{
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .35s;
+}
+#btn-entrar:hover{
+    transform: scale(0.9);
+}
+
+.container-do-título-de-busca{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin-left: 710px;
+    margin-top: 50px;
+}
+#título-de-busca{
+    font-size: 25px;
+}
+.container-da-barra-de-busca{
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+    width: 700px;
+    height: 50px;
+    margin-left: 600px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+#barra-de-busca{
+    width: 620px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+#barra-de-busca:focus{
+    outline: none;
+}
+.container-do-ícone-da-lupa{
+    width: 30px;
+    margin-left: 1240px;
+    margin-top: -45px;
+}
+#ícone-da-lupa{
+    width: 40px;
+    cursor: pointer;
+}
+
+.container-título-de-categorias{
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#título-de-categorias{
+    font-size: 25px;
+    color: #262323;
+    text-shadow: 3px 3px 10px #262323;
+}
+.card-alimentação{
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.card-artesanato{
+    width: 50px;
+    margin-left: 300px;
+    margin-top: -150px;
+}
+.card-roupas{
+    width: 50px;
+    margin-left: 500px;
+    margin-top: -150px;
+}
+.card-bebidas{
+    width: 50px;
+    margin-left: 700px;
+    margin-top: -150px;
+}
+.card-serviços{
+    width: 50px;
+    margin-left: 900px;
+    margin-top: -150px;
+}
+.card-outros{
+    width: 40px;
+    margin-left: 1100px;
+    margin-top: -150px;
+}
+#btn-alimentação{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #D5EFB0;
+    border: none;
+    transition: .35s;
+    cursor: pointer;
+}
+#btn-artesanato{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+     background-color: #D5EFB0;
+      border: none;
+      transition: .35s;
+        cursor: pointer;
+}
+#btn-roupas{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+     background-color: #D5EFB0;
+      border: none;
+      transition: .35s;
+        cursor: pointer;
+}
+#btn-bebidas{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+     background-color: #D5EFB0;
+      border: none;
+      transition: .35s;
+        cursor: pointer;
+}
+#btn-serviços{
+     width: 150px;
+    height: 150px;
+    border-radius: 10px;
+     background-color: #D5EFB0;
+      border: none;
+      transition: .35s;
+        cursor: pointer;
+}
+#btn-outros{
+     width: 150px;
+    height: 150px;
+    border-radius: 10px;
+     background-color: #D5EFB0;
+      border: none;
+      transition: .35s;
+        cursor: pointer;
+}
+#btn-alimentação:hover{
+    transform: scale(0.9);
+}
+#btn-artesanato:hover{
+    transform: scale(0.9);
+}
+#btn-roupas:hover{
+    transform: scale(0.9);
+}
+#btn-bebidas:hover{
+    transform: scale(0.9);
+}
+#btn-serviços:hover{
+    transform: scale(0.9);
+}
+#btn-outros:hover{
+    transform: scale(0.9);
+}
+#título-alimentação{
+    font-size: 15px;
+    font-weight: bold;
+}
+#título-artesanato{
+    font-size: 15px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+#título-roupas{
+    font-size: 15px;
+    font-weight: bold;
+}
+#título-bebidas{
+    font-size: 15px;
+    font-weight: bold;
+}
+#título-serviços{
+    font-size: 15px;
+    font-weight: bold;
+}
+#título-outros{
+    font-size: 15px;
+    font-weight: bold;
+}
+#alimentação{
+    width: 70px;
+}
+#artesanato{
+    width: 90px;
+    margin-top: -10px;
+}
+#roupas{
+    width: 70px;
+}
+#bebidas{
+    width: 70px;
+}
+#serviços{
+    width: 70px;
+}
+#outros{
+    width: 70px;
+}
+.container-de-banner{
+    margin-left: 230px;
+    margin-top: 50px;
+}
+#banner{
+    width: 1400px;
+}
+
+.container-de-título-feirantes-destaque{
+    width: 260px;
+     margin-left: 50px;
+    margin-top: 20px;
+}
+#título-feirantes-destaque{
+     font-size: 25px;
+    color: #262323;
+    text-shadow: 3px 3px 10px #262323;
+}
+.container-feirantes-não-encontrados{
+    background-color: #EBEBEB;
+    width: 1500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 9%;
+    margin-top: 1%;
+}
+.container-de-texto-feirantes-não-encontrados{
+    width: 230px;
+    margin-top: -8%;
+    margin-left: 43%;
+}
+#texto-feirantes-não-encontrados{
+    font-size: 22px;
+}
+
+
+
