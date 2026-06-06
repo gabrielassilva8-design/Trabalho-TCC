@@ -1,0 +1,192 @@
+/* --- Variáveis Globais (Facilita manutenção de cores e fontes) --- */
+:root {
+    --primary: #2e7d32;
+    --primary-dark: #1b5e20;
+    --danger: #d32f2f;
+    --text-dark: #1a1a1a;
+    --bg-light: #f5f5f5;
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* --- Reset e Base --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--sans);
+    background-color: var(--bg-light);
+    min-height: 100vh;
+}
+
+/* --- Layout e Alinhamentos Comuns --- */
+.header-content, .main-content {
+    margin: 0 auto;
+    height: 9vh;
+}
+
+.main-content { max-width: 900px; }
+
+.logo-icon, .back-button, .card {
+    display: flex;
+    align-items: center;
+}
+
+/* --- Header e Logo --- */
+.header { background-color: var(--primary); }
+.logo { gap: 12px; }
+
+/* --- Header e Alinhamento da Logo --- */
+.header { 
+    background-color: var(--primary); 
+    width: 100%;
+    height: 9vh;
+}
+
+.logo {
+   width: 75px;
+   margin-left: 1%;
+}
+
+.logo-img {
+    width: 85px;
+    height: 85px;
+}
+
+.logo-text {
+    color: #262323;
+    text-shadow: 3px 3px 10px #262323;
+    margin-top: 5px;
+}
+
+.container-do-título-da-logo{
+    width: 300px;
+    margin-left: 120px;
+    margin-top: -75px;
+}
+
+/* --- Botão Voltar e Títulos --- */
+.back-button {
+    gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 24px;
+    transition: opacity 0.2s;
+}
+.back-button:hover { opacity: 0.7; }
+
+.back-arrow {
+    margin-left: -500px;
+    margin-top: 5px;
+}
+#seta-voltar{
+    width: 60px;
+}
+.back-text{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: -5px;
+}
+#voltar{
+     font-size: 25px;
+    color: #262323;
+    text-shadow: 3px 3px 10px #262323;
+}
+.container-de-título-acesso-rápido{
+    width: 220px;
+    margin-left: -440px;
+}
+.title-section { margin-bottom: 32px; }
+.page-title { font-size: 32px; font-weight: 700; color: var(--text-dark); margin-bottom: 8px; text-shadow: 3px 3px 10px grey; }
+.page-subtitle { font-size: 18px; color: #000000; margin-left: -440px;}
+
+.card-feirante{
+    background-color: #EBEBEB;
+    width: 700px;
+    height: 500px;
+    margin-left: -250px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px grey;
+}
+.icone-loja{
+    width: 130px;
+    margin-left: 270px;
+}
+#store-icon{
+    margin-top: 100px;
+    width: 160px;
+}
+.container-de-título-sou-feirante{
+    width: 150px;
+    margin-top: -225px;
+    margin-left: 25px;
+}
+#título-sou-feirante{
+    font-weight: bold;
+    font-size: 25px;
+}
+.container-de-botão-um{
+width: 100px;
+margin-left: -150px;
+margin-top: 70px;
+}
+#btn-um{
+    background-color: #2e7d32;
+    width: 500px;
+    height: 75px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+.card-boxes-salvos{
+     background-color: #EBEBEB;
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px grey;
+    margin-left: 530px;
+    margin-top: -453px;
+}
+.container-de-título-boxes-salvos{
+     width: 150px;
+     margin-left: 800px;
+     margin-top: -230px;
+}
+#título-boxes-salvos{
+     font-weight: bold;
+    font-size: 25px;
+}
+.icone-salvo{
+     width: 130px;
+}
+#salvo-icon{
+    margin-left: 286px;
+    width: 110px;
+    margin-top: 120px;
+}
+.container-de-botão-dois{
+    width: 90px;
+    background-color: aqua;
+   margin-left: 630px;
+   margin-top: 70px;
+
+}
+#btn-dois{
+     background-color: #2e7d32;
+    width: 500px;
+    height: 75px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+
